@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A07BB981A6D391500CB14C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A07BB971A6D391500CB14C3 /* AppDelegate.swift */; };
+		5A07BB9B1A6D391500CB14C3 /* rmios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A07BB991A6D391500CB14C3 /* rmios.xcdatamodeld */; };
+		5A07BB9D1A6D391500CB14C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A07BB9C1A6D391500CB14C3 /* ViewController.swift */; };
+		5A07BBA21A6D391500CB14C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A07BBA11A6D391500CB14C3 /* Images.xcassets */; };
+		5A07BBA51A6D391500CB14C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A07BBA31A6D391500CB14C3 /* LaunchScreen.xib */; };
+		5A07BBB11A6D391500CB14C3 /* rmiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A07BBB01A6D391500CB14C3 /* rmiosTests.swift */; };
+		5A07BBBC1A6D3EF200CB14C3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A07BBBB1A6D3EF200CB14C3 /* logo.png */; };
+		5A7BA00A1A8471F700AA62AE /* SessionModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7BA0091A8471F700AA62AE /* SessionModelViewController.swift */; };
+		5A7BA00C1A84729400AA62AE /* CollectionModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7BA00B1A84729400AA62AE /* CollectionModelViewController.swift */; };
+		5A8EC2F81A7F76B400D87484 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8EC2F71A7F76B400D87484 /* SignupViewController.swift */; };
+		5ADAC00D1A8CA6F100760C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADAC00C1A8CA6F100760C2D /* Main.storyboard */; };
+		5AEA7B471A7FB32800CD7141 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEA7B461A7FB32800CD7141 /* CollectionViewController.swift */; };
+		5AF81FBB1A96D17600891BC3 /* AddSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF81FBA1A96D17600891BC3 /* AddSiteViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A07BBAB1A6D391500CB14C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A07BB8A1A6D391500CB14C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A07BB911A6D391500CB14C3;
+			remoteInfo = rmios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A07BB921A6D391500CB14C3 /* rmios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rmios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A07BB961A6D391500CB14C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A07BB971A6D391500CB14C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A07BB9A1A6D391500CB14C3 /* rmios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = rmios.xcdatamodel; sourceTree = "<group>"; };
+		5A07BB9C1A6D391500CB14C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A07BBA11A6D391500CB14C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A07BBA41A6D391500CB14C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5A07BBAA1A6D391500CB14C3 /* rmiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rmiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A07BBAF1A6D391500CB14C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A07BBB01A6D391500CB14C3 /* rmiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rmiosTests.swift; sourceTree = "<group>"; };
+		5A07BBBB1A6D3EF200CB14C3 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "../../../../instedd/resourcemap-mobile/www/img/logo.png"; sourceTree = "<group>"; };
+		5A7BA0091A8471F700AA62AE /* SessionModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionModelViewController.swift; sourceTree = "<group>"; };
+		5A7BA00B1A84729400AA62AE /* CollectionModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionModelViewController.swift; sourceTree = "<group>"; };
+		5A8EC2F71A7F76B400D87484 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		5ADAC00C1A8CA6F100760C2D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5AEA7B461A7FB32800CD7141 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		5AF81FBA1A96D17600891BC3 /* AddSiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSiteViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A07BB8F1A6D391500CB14C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A07BBA71A6D391500CB14C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A07BB891A6D391500CB14C3 = {
+			isa = PBXGroup;
+			children = (
+				5A07BB941A6D391500CB14C3 /* rmios */,
+				5A07BBAD1A6D391500CB14C3 /* rmiosTests */,
+				5A07BB931A6D391500CB14C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A07BB931A6D391500CB14C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A07BB921A6D391500CB14C3 /* rmios.app */,
+				5A07BBAA1A6D391500CB14C3 /* rmiosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A07BB941A6D391500CB14C3 /* rmios */ = {
+			isa = PBXGroup;
+			children = (
+				5A7BA00D1A8472D800AA62AE /* model */,
+				5AF81FBA1A96D17600891BC3 /* AddSiteViewController.swift */,
+				5AEA7B461A7FB32800CD7141 /* CollectionViewController.swift */,
+				5A8EC2F71A7F76B400D87484 /* SignupViewController.swift */,
+				5A07BBBA1A6D3EDF00CB14C3 /* images */,
+				5A07BB971A6D391500CB14C3 /* AppDelegate.swift */,
+				5A07BB9C1A6D391500CB14C3 /* ViewController.swift */,
+				5ADAC00C1A8CA6F100760C2D /* Main.storyboard */,
+				5A07BBA11A6D391500CB14C3 /* Images.xcassets */,
+				5A07BBA31A6D391500CB14C3 /* LaunchScreen.xib */,
+				5A07BB991A6D391500CB14C3 /* rmios.xcdatamodeld */,
+				5A07BB951A6D391500CB14C3 /* Supporting Files */,
+			);
+			path = rmios;
+			sourceTree = "<group>";
+		};
+		5A07BB951A6D391500CB14C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A07BB961A6D391500CB14C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A07BBAD1A6D391500CB14C3 /* rmiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A07BBB01A6D391500CB14C3 /* rmiosTests.swift */,
+				5A07BBAE1A6D391500CB14C3 /* Supporting Files */,
+			);
+			path = rmiosTests;
+			sourceTree = "<group>";
+		};
+		5A07BBAE1A6D391500CB14C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A07BBAF1A6D391500CB14C3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A07BBBA1A6D3EDF00CB14C3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5A07BBBB1A6D3EF200CB14C3 /* logo.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		5A7BA00D1A8472D800AA62AE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5A7BA0091A8471F700AA62AE /* SessionModelViewController.swift */,
+				5A7BA00B1A84729400AA62AE /* CollectionModelViewController.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A07BB911A6D391500CB14C3 /* rmios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A07BBB41A6D391500CB14C3 /* Build configuration list for PBXNativeTarget "rmios" */;
+			buildPhases = (
+				5A07BB8E1A6D391500CB14C3 /* Sources */,
+				5A07BB8F1A6D391500CB14C3 /* Frameworks */,
+				5A07BB901A6D391500CB14C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rmios;
+			productName = rmios;
+			productReference = 5A07BB921A6D391500CB14C3 /* rmios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A07BBA91A6D391500CB14C3 /* rmiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A07BBB71A6D391500CB14C3 /* Build configuration list for PBXNativeTarget "rmiosTests" */;
+			buildPhases = (
+				5A07BBA61A6D391500CB14C3 /* Sources */,
+				5A07BBA71A6D391500CB14C3 /* Frameworks */,
+				5A07BBA81A6D391500CB14C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A07BBAC1A6D391500CB14C3 /* PBXTargetDependency */,
+			);
+			name = rmiosTests;
+			productName = rmiosTests;
+			productReference = 5A07BBAA1A6D391500CB14C3 /* rmiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A07BB8A1A6D391500CB14C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = limmouyleng;
+				TargetAttributes = {
+					5A07BB911A6D391500CB14C3 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					5A07BBA91A6D391500CB14C3 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 5A07BB911A6D391500CB14C3;
+					};
+				};
+			};
+			buildConfigurationList = 5A07BB8D1A6D391500CB14C3 /* Build configuration list for PBXProject "rmios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A07BB891A6D391500CB14C3;
+			productRefGroup = 5A07BB931A6D391500CB14C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A07BB911A6D391500CB14C3 /* rmios */,
+				5A07BBA91A6D391500CB14C3 /* rmiosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A07BB901A6D391500CB14C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A07BBBC1A6D3EF200CB14C3 /* logo.png in Resources */,
+				5A07BBA51A6D391500CB14C3 /* LaunchScreen.xib in Resources */,
+				5A07BBA21A6D391500CB14C3 /* Images.xcassets in Resources */,
+				5ADAC00D1A8CA6F100760C2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A07BBA81A6D391500CB14C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A07BB8E1A6D391500CB14C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A07BB9D1A6D391500CB14C3 /* ViewController.swift in Sources */,
+				5A8EC2F81A7F76B400D87484 /* SignupViewController.swift in Sources */,
+				5A07BB9B1A6D391500CB14C3 /* rmios.xcdatamodeld in Sources */,
+				5AF81FBB1A96D17600891BC3 /* AddSiteViewController.swift in Sources */,
+				5A7BA00C1A84729400AA62AE /* CollectionModelViewController.swift in Sources */,
+				5A7BA00A1A8471F700AA62AE /* SessionModelViewController.swift in Sources */,
+				5A07BB981A6D391500CB14C3 /* AppDelegate.swift in Sources */,
+				5AEA7B471A7FB32800CD7141 /* CollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A07BBA61A6D391500CB14C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A07BBB11A6D391500CB14C3 /* rmiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A07BBAC1A6D391500CB14C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A07BB911A6D391500CB14C3 /* rmios */;
+			targetProxy = 5A07BBAB1A6D391500CB14C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A07BBA31A6D391500CB14C3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A07BBA41A6D391500CB14C3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A07BBB21A6D391500CB14C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A07BBB31A6D391500CB14C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A07BBB51A6D391500CB14C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rmios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A07BBB61A6D391500CB14C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rmios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A07BBB81A6D391500CB14C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = rmiosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rmios.app/rmios";
+			};
+			name = Debug;
+		};
+		5A07BBB91A6D391500CB14C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = rmiosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rmios.app/rmios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A07BB8D1A6D391500CB14C3 /* Build configuration list for PBXProject "rmios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A07BBB21A6D391500CB14C3 /* Debug */,
+				5A07BBB31A6D391500CB14C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A07BBB41A6D391500CB14C3 /* Build configuration list for PBXNativeTarget "rmios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A07BBB51A6D391500CB14C3 /* Debug */,
+				5A07BBB61A6D391500CB14C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A07BBB71A6D391500CB14C3 /* Build configuration list for PBXNativeTarget "rmiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A07BBB81A6D391500CB14C3 /* Debug */,
+				5A07BBB91A6D391500CB14C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A07BB991A6D391500CB14C3 /* rmios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A07BB9A1A6D391500CB14C3 /* rmios.xcdatamodel */,
+			);
+			currentVersion = 5A07BB9A1A6D391500CB14C3 /* rmios.xcdatamodel */;
+			path = rmios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A07BB8A1A6D391500CB14C3 /* Project object */;
+}

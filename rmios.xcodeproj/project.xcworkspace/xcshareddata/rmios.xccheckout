@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B24F3BF5-B5CA-49FF-9422-B91CED73ABF4</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1939176053827AE66F7C921A9FE40EF2AB39A759</key>
+		<string>bitbucket.org:ilab/resourcemap-mobile.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1939176053827AE66F7C921A9FE40EF2AB39A759</key>
+		<string>resourcemap-mobile/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>bitbucket.org:ilab/resourcemap-mobile.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1939176053827AE66F7C921A9FE40EF2AB39A759</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1939176053827AE66F7C921A9FE40EF2AB39A759</string>
+			<key>IDESourceControlWCCName</key>
+			<string>resourcemap-mobile</string>
+		</dict>
+	</array>
+</dict>
+</plist>
