@@ -1,7 +1,6 @@
 import UIKit
 
-class CollectionModelViewController: UIViewController {
-
+class SiteModelViewController: UIViewController {
   func getResponseHTTP(auth_token: String, url : String, postCompleted : (collection_list: AnyObject, msg: String) -> ()) {
     var url = NSURL(string: url)
     var request = NSMutableURLRequest(URL: url!)
@@ -32,13 +31,8 @@ class CollectionModelViewController: UIViewController {
 
       }
     })
-
+    
     task.resume()
   }
 
-  func parseJSON(inputData: NSData) -> NSDictionary{
-    var error: NSError?
-    var boardsDictionary: NSDictionary = NSJSONSerialization.JSONObjectWithData(inputData, options: NSJSONReadingOptions.MutableContainers, error: &error) as NSDictionary
-    return boardsDictionary
-  }
 }

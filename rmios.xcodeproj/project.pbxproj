@@ -19,6 +19,8 @@
 		5A8EC2F81A7F76B400D87484 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8EC2F71A7F76B400D87484 /* SignupViewController.swift */; };
 		5ADAC00D1A8CA6F100760C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ADAC00C1A8CA6F100760C2D /* Main.storyboard */; };
 		5AEA7B471A7FB32800CD7141 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEA7B461A7FB32800CD7141 /* CollectionViewController.swift */; };
+		5AF2B5251A99DEC4009719CC /* SiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF2B5241A99DEC4009719CC /* SiteViewController.swift */; };
+		5AF2B5271A99E285009719CC /* SiteModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF2B5261A99E285009719CC /* SiteModelViewController.swift */; };
 		5AF81FBB1A96D17600891BC3 /* AddSiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF81FBA1A96D17600891BC3 /* AddSiteViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,8 @@
 		5A8EC2F71A7F76B400D87484 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		5ADAC00C1A8CA6F100760C2D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5AEA7B461A7FB32800CD7141 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		5AF2B5241A99DEC4009719CC /* SiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteViewController.swift; sourceTree = "<group>"; };
+		5AF2B5261A99E285009719CC /* SiteModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteModelViewController.swift; sourceTree = "<group>"; };
 		5AF81FBA1A96D17600891BC3 /* AddSiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSiteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +98,7 @@
 				5A7BA00D1A8472D800AA62AE /* model */,
 				5AF81FBA1A96D17600891BC3 /* AddSiteViewController.swift */,
 				5AEA7B461A7FB32800CD7141 /* CollectionViewController.swift */,
+				5AF2B5241A99DEC4009719CC /* SiteViewController.swift */,
 				5A8EC2F71A7F76B400D87484 /* SignupViewController.swift */,
 				5A07BBBA1A6D3EDF00CB14C3 /* images */,
 				5A07BB971A6D391500CB14C3 /* AppDelegate.swift */,
@@ -145,6 +150,7 @@
 			children = (
 				5A7BA0091A8471F700AA62AE /* SessionModelViewController.swift */,
 				5A7BA00B1A84729400AA62AE /* CollectionModelViewController.swift */,
+				5AF2B5261A99E285009719CC /* SiteModelViewController.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -251,10 +257,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A07BB9D1A6D391500CB14C3 /* ViewController.swift in Sources */,
+				5AF2B5271A99E285009719CC /* SiteModelViewController.swift in Sources */,
 				5A8EC2F81A7F76B400D87484 /* SignupViewController.swift in Sources */,
 				5A07BB9B1A6D391500CB14C3 /* rmios.xcdatamodeld in Sources */,
 				5AF81FBB1A96D17600891BC3 /* AddSiteViewController.swift in Sources */,
 				5A7BA00C1A84729400AA62AE /* CollectionModelViewController.swift in Sources */,
+				5AF2B5251A99DEC4009719CC /* SiteViewController.swift in Sources */,
 				5A7BA00A1A8471F700AA62AE /* SessionModelViewController.swift in Sources */,
 				5A07BB981A6D391500CB14C3 /* AppDelegate.swift in Sources */,
 				5AEA7B471A7FB32800CD7141 /* CollectionViewController.swift in Sources */,

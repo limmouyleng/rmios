@@ -6,22 +6,30 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>B24F3BF5-B5CA-49FF-9422-B91CED73ABF4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>rmios</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1939176053827AE66F7C921A9FE40EF2AB39A759</key>
 		<string>bitbucket.org:ilab/resourcemap-mobile.git</string>
+		<key>3FB2FF470EF2B49E02D16C508B696788F7051971</key>
+		<string>https://github.com/limmouyleng/rmios.git</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>rmios.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1939176053827AE66F7C921A9FE40EF2AB39A759</key>
-		<string>resourcemap-mobile/</string>
+		<string>../../../instedd/resourcemap-mobile</string>
+		<key>3FB2FF470EF2B49E02D16C508B696788F7051971</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>bitbucket.org:ilab/resourcemap-mobile.git</string>
+	<string>https://github.com/limmouyleng/rmios.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1939176053827AE66F7C921A9FE40EF2AB39A759</string>
+	<string>3FB2FF470EF2B49E02D16C508B696788F7051971</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -31,6 +39,14 @@
 			<string>1939176053827AE66F7C921A9FE40EF2AB39A759</string>
 			<key>IDESourceControlWCCName</key>
 			<string>resourcemap-mobile</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3FB2FF470EF2B49E02D16C508B696788F7051971</string>
+			<key>IDESourceControlWCCName</key>
+			<string>rmios</string>
 		</dict>
 	</array>
 </dict>
